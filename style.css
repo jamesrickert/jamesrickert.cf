@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Mingzat&display=swap');
+body {
+    font-family: 'Mingzat', sans-serif;
+}
+#services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box {
+    padding: 0.5em;
+    border: 2px solid black;
+    transition: 200ms ease-in-out;
+    width: 100px;
+    border-radius: 20px;
+}
+#box:hover {
+    transform: scale(1.1);
+}
